@@ -36,15 +36,25 @@ li a:hover {
 	margin: 20px;
 	float: left;
 }
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 </style>
 </head>
 <body>
 	<div class="logo"></div>
+	<div class="navbar-fixed">
+  <nav>
 	<ul>
 		<li><a class="active" href="/">Home</a></li>
 		<li><a href="/news">News</a></li>
 		<li><a href="/board">Board</a></li>
 		<li style="float: right"><a href="/login">Login</a></li>
 	</ul>
+	  </nav>
+</div>
 </body>
 </html>
